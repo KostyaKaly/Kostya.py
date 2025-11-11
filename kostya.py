@@ -1,0 +1,22 @@
+a=[12, 23, 43, 565,2, 5, 6, 4, 0, 1, ° bana
+numbers = []
+letters = []
+for item in a:
+if type(item) is str:
+letters. append (item)
+elif type(item) is int:
+numbers. append (item)
+numbers. sort ()
+letters. sort ()
+fin_list= numbers + letters
+two=[]
+for item in numbers:
+if item % 2 == 0:
+two. append (item)
+caps = [J
+for item in letters:
+caps append (item.upper())
+print ('відсортований список', fin_list)
+print("список парних чисел', two)
+print( срисок літер написаних капсом", саг
+45
